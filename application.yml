@@ -1,4 +1,8 @@
 # <--JMD -->
+# <--JMD -->
+spring:
+  application:
+    name: Config-default
 
 eureka:
   instances:
@@ -8,4 +12,3 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: http://localhost:8761/eureka
-
